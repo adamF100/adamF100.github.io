@@ -1,0 +1,321 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+    /* The image used */
+    background-image: url("vinterny.jpg");
+    
+  
+    /* Full height */
+    height: 95vh;
+    width: 100vw; 
+
+  
+    /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* This is the Blueberries recipe content */
+  .bodyrecipe {
+    background-image: url("autumnrecipe.jpg");
+    position: fixed;
+  }
+
+
+  section {
+     display:flex;
+     margin-bottom: 3%;
+     margin-left: 3%;
+  }
+
+  h3{
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+   }
+   
+   li {
+     font-family: 'Gruppo', cursive;
+     font-size: 28px;
+   }
+   
+   p {
+     font-family: 'Gruppo', cursive;
+     font-size: 28px;
+   
+   }
+   
+  #myBtn {
+  position: absolute;
+  left: 26.5%;
+  top: 1.5%;
+  padding: none;
+  background-color: white;
+  font-family: 'Anton', sans-serif;
+  font-size: 25px;
+  letter-spacing: 2px;
+  }
+   
+   
+   
+   /* The Modal (background) */
+  .modal {
+   display: none; /* Hidden by default */
+   position: fixed; /* Stay in place */
+   /* z-index: 1; /* Sit on top */
+   margin-top: 3.7%;
+   margin-left: 51.75%; /* this is where you change the position/*
+   /* left: 0;
+   top: 0; */
+   width: 100%; /* Full width */
+   height: 100%; /* Full height */
+   z-index: 1; /* the modal comes above other stuff */
+   
+   /*
+   overflow: auto; /* Enable scroll if needed */
+   
+  }
+  /* Modal Content/Box */
+  .modal-content {
+   background-color: white;
+  /* margin-top: 5.8%;
+   margin-left: 2%; */
+   padding: 100px;
+   padding-top: 20px;
+   height: 801px; /*this is exactly the size of the image*/
+   width: 642px; /*this is exactly the size of the image*/
+   border: none;
+  }
+  /* The Close Button */
+  .close {
+   color: #aaa;
+   float: right;
+   font-size: 28px;
+   font-weight: bold;
+  }
+  .close:hover,
+  .close:focus {
+   color: black;
+   text-decoration: none;
+   cursor: pointer;
+  }
+   
+   
+  /*THERE COMES THE CORN CSS */
+   
+  #cornBtn
+  {
+   position: absolute;
+   top: 1.5%;
+   left: 77.2%;
+   padding: none;
+   background-color: white;
+   font-family: 'Anton', sans-serif;
+   font-size: 25px;
+   letter-spacing: 2px;
+  }  
+   
+  .modalcorn {
+   display: none; /* Hidden by default */
+   position: fixed; /* Stay in place */
+   margin-top: 3.7%;
+   margin-left: 4.1%; /* this is where you change the position/*
+   /* left: 0;
+   top: 0; */
+   width: 100%; /* Full width */
+   height: 100%; /* Full height */
+   z-index: 1; /* the modal comes above other stuff */
+   
+   /*
+   overflow: auto; /* Enable scroll if needed */
+   
+  }
+   
+   
+  .modal-corn-content {
+   background-color: white;
+  /* margin-top: 5.8%;
+   margin-left: 2%; */
+   padding: 100px;
+   padding-top: 20px;
+   height: 801px; /*this is exactly the size of the image*/
+   width: 642px; /*this is exactly the size of the image*/
+   border: none;
+   
+  }
+   
+  /* The Close Button */
+  .closecorn {
+   color: #aaa;
+   float: right;
+   font-size: 28px;
+   font-weight: bold;
+  }
+  .closecorn:hover,
+  .closecorn:focus {
+   color: black;
+   text-decoration: none;
+   cursor: pointer;
+  }
+   
+
+
+
+  /* This is the blueberry recipe content END!!!!!!!*/
+
+  .blueberries {
+
+    font-family:'Anton', sans-serif;
+    letter-spacing: 2px;
+    font-size: 25px;
+    position: absolute;
+    color: black;
+    top: 1.5%;
+    left: 13%;
+    font-weight: bolder;
+  }
+
+  
+
+  .beetroot {
+    font-family:'Anton', sans-serif;
+    letter-spacing: 2px;
+    right: 26.5%;
+    top: 1.5%;
+    font-size: 25px;
+    position: absolute;
+    color: black;
+   
+    font-weight: bolder;
+  }
+
+  /* This is the Blueberries recipe content END!!!!!!!*/
+
+
+  .menu {
+    position: absolute;
+    left: 44.4%;
+    top: 0px ;
+  }
+
+
+  .bodyrecipe {
+    background-image: url("winterrecipes.jpg");
+  }
+
+h1{
+  font-family: 'Anton', sans-serif;
+  font-size: 4rem;
+  color: lightskyblue;
+  font-size: 150px;
+
+  position: relative;
+  top: 310px;
+  right: -30px;
+}
+h2{
+  font-family: 'Gruppo', cursive;
+  font-size:  3rem;
+  color: black;
+  
+  
+  position: absolute;
+  top: 55%;
+  left: 40%;
+  transform: rotate(90deg);
+  
+}
+
+       .btn {
+        position: absolute;
+        top: 735px;
+        right: 220px;
+        
+       
+        background-color:#FDF4E4;
+        color: black;
+        font-family: 'Gruppo', cursive;
+        border: none;
+        padding: 31px 60px;
+        font-size: 24px;
+        text-align: center;
+    
+      }
+      
+       .btn:hover {
+        background-color: lightskyblue;
+       
+    
+
+
+  }
+  .dropbtn {
+    
+    background-color: #FDF4E4;
+    
+    font-family: 'Gruppo', cursive;
+    color:black;
+    padding: 33px;
+    font-size: 25px;
+    border: none;
+    min-width: 236px;
+    
+  }
+  
+  .dropdown {
+    position: relative;
+    top: 60%;
+    right: 15%;
+    display: inline-block;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    font-family: 'Gruppo', cursive;
+    background-color: #FDF4E4;
+    min-width: 237px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    font-family: 'Gruppo', cursive;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color:lightskyblue;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: lightskyblue}
+  
+  .recipe:hover {
+    background-color: #87cefa;
+
+
+
+}
+  
+  .recipe {
+    position: absolute;
+    top: 735px;
+    left: 144px;
+    
+   
+    background-color:#FDF4E4;
+    color: black;
+    font-family: 'Gruppo', cursive;
+    border: none;
+    padding: 19px 60px;
+    font-size: 24px;
+    text-align: center;
+
+  }
